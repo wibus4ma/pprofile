@@ -16,7 +16,7 @@ function App() {
         <div className="h-full flex items-center justify-center relative min-w-[320px]">
           <TypeEffect text="Wibus4ma.dev..." speed={120} />
           <p className="absolute right-0 bottom-[42%] underline cursor-pointer">
-            wibus4ma?
+            wibus4ma.dev
           </p>
         </div>
         <div className="min-w-[320px] mb-4">
