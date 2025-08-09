@@ -1,0 +1,35 @@
+.water-bubble {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 15px 15px, rgba(255, 255, 255, 0.15), rgba(100, 210, 255, 0.15));
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  z-index: 100;
+  pointer-events: auto;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bubble-text {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  line-height: 1;
+  pointer-events: none;
+}
+
+.water-bubble::after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+}

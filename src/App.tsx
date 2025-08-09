@@ -1,6 +1,7 @@
 import "./App.css";
 import ParallaxStar from "./components/ParallaxStar/ParallaxStar";
 import TypeEffect from "./components/TypeEffect";
+import WaterBubble from "./components/WaterBubble/WaterBubble";
 import {
   FaLinkedin,
   FaSquareFacebook,
@@ -12,6 +13,7 @@ function App() {
   return (
     <>
       <ParallaxStar />
+      <WaterBubble />
       <div className="App text-white h-screen flex items-center justify-center flex-col">
         <div className="h-full flex items-center justify-center relative min-w-[320px]">
           <TypeEffect text="Wibus4ma.dev..." speed={120} />
@@ -21,7 +23,7 @@ function App() {
         </div>
         <div className="min-w-[320px] mb-4">
           <ul className="flex justify-center space-x-4 border rounded-l-full rounded-r-full p-2">
-            <a href="https://www.facebook.com/tan.phat2104" target="_blank">
+            <a href="https://www.facebook.com/votanphat.2104" target="_blank">
               <FaSquareFacebook className="text-[#486BA3] text-4xl hover:scale-150 duration-300 cursor-pointer" />
             </a>
             <a href="https://github.com/wibus4ma" target="_blank">
